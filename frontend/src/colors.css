@@ -1,0 +1,52 @@
+/* 새로운 톤앤매너 컬러 팔레트 */
+:root {
+  /* Primary Colors */
+  --lilac-pink: rgb(223, 174, 226);
+  --lilac-pink-hex: #DFAEE2;
+
+  --sky-blue: rgb(78, 171, 237);
+  --sky-blue-hex: #4EABED;
+
+  /* Neutral Colors */
+  --black: rgb(1, 0, 0);
+  --black-hex: #010000;
+
+  --mist-gray: rgb(150, 146, 157);
+  --mist-gray-hex: #96929D;
+
+  --charcoal: rgb(35, 33, 41);
+  --charcoal-hex: #232129;
+
+  /* Accent Colors */
+  --brown-red: rgb(99, 64, 64);
+  --brown-red-hex: #634040;
+
+  --coral-red: rgb(202, 79, 71);
+  --coral-red-hex: #CA4F47;
+
+  /* Color Usage Variables */
+  --primary-color: var(--lilac-pink);
+  --secondary-color: var(--sky-blue);
+  --accent-color: var(--coral-red);
+  --text-primary: var(--charcoal);
+  --text-secondary: var(--mist-gray);
+  --text-inverse: white;
+  --background-primary: white;
+  --background-secondary: #fafafa;
+  --border-color: var(--mist-gray);
+}
+
+/* Light/dark theme variations */
+.light-theme {
+  --primary-bg: white;
+  --secondary-bg: #fafafa;
+  --primary-text: var(--charcoal);
+  --secondary-text: var(--mist-gray);
+}
+
+.dark-theme {
+  --primary-bg: var(--charcoal);
+  --secondary-bg: var(--black);
+  --primary-text: white;
+  --secondary-text: var(--mist-gray);
+}
